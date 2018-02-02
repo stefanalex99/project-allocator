@@ -8,17 +8,33 @@ Hermeniuc Stefan-Alexandru 314CA
 
 Programul nostru va simula memoria unui calculator folosind un vector de tip 
 unsigned char. Acesta trebuie sa indeplineasca functii elementare, necesare 
-unei aplicatii de acest gen precum initializarea arena (termenul pe care 
-il vom folosi de acum pentru a denumi vectorul de date), finalizarea 
-programului (eliberarea memoriei alocate initial pentru arena), DUMP 
-(care afiseaza harta de memorie intr-un format specific, similar unor 
-aplicatii care afiseaza continutul unor fisiere binare), ALLOC (care 
-rezerva o anumita zona de memorie compacta, continua pe care utilizatorul 
-o poate folosi), FREE (care elibereaza o zona rezervata anterior), FILL 
-(care adauga date in zone rezervare), SHOW care afiseaza informatii 
-statistice despre starea arenei. In implementarea acestor comenzi am definit 
-diverse functii:
+unei aplicatii de acest gen precum:
 
+	0) INITIALIZE arena (termenul pe care il vom folosi de acum pentru 
+	a denumi vectorul de date)
+	
+	
+	1) FINALIZE (eliberarea memoriei alocate initial pentru arena)
+	
+	
+	2) DUMP (care afiseaza harta de memorie intr-un format specific, 
+	similar unor aplicatii care afiseaza continutul unor fisiere binare) 
+	
+	
+	3) ALLOC (care rezerva o anumita zona de memorie compacta, continua pe 
+	care utilizatorul o poate folosi) 
+	
+	
+	4) FREE (care elibereaza o zona rezervata anterior) 
+	
+	
+	5) FILL (care adauga date in zone rezervare) 
+	
+	
+	6) SHOW care afiseaza informatii statistice despre starea arenei. 
+	
+	
+In implementarea acestor comenzi am definit diverse functii:
 
 
 
